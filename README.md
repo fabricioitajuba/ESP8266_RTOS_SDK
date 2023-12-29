@@ -78,7 +78,12 @@ $ python3 -m pip install --user -r $IDF_PATH/requirements.txt
 ## Criando um projeto
 
 - Copie o conteúdo da pasta "base" para a pasta do projeto;
+  
 - Renomeie o nome da pasta "base" para o nome desejado;
+  
+- Dentro da pasta, no arquivo "Makefile", coloque depois de "PROJECT_NAME :=" o nome do projeto;
+
+- Dentro da pasta main, coloque seu programa no arquivo "main.c".
 
 ### para configurar:
 
