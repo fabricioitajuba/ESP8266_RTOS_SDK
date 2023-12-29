@@ -5,6 +5,8 @@ Exemplo de programas para o ESP8266 utilizando RTOS SDK
 https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html
 https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html
 
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 # Install Prerequisites
 
 $ sudo apt-get install gcc git wget make python3 libncurses-dev flex bison gperf
