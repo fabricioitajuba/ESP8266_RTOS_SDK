@@ -5,13 +5,13 @@ Exemplo de programas para o ESP8266 utilizando RTOS SDK
 https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html
 https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html
 
-### Install Prerequisites
+# Install Prerequisites
 
 $ sudo apt-get install gcc git wget make python3 libncurses-dev flex bison gperf
 
 $ sudo ln -s /usr/bin/python3 /usr/bin/python
 
-### Toolchain Setup
+# Toolchain Setup
 
 $ cd Downloads
 
@@ -62,19 +62,19 @@ Veja se o caminho foi adicionado
 $ sudo usermod -a -G dialout $USER
 
 
-## Get ESP8266_RTOS_SDK
+# Get ESP8266_RTOS_SDK
 
 $ cd ~/esp
 
 $ git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
 
 
-## Install the Required Python Packages
+# Install the Required Python Packages
 
 $ python3 -m pip install --user -r $IDF_PATH/requirements.txt
 
 
-## Start a Project (Exemplo Hello-World)
+# Start a Project (Exemplo Hello-World)
 
 $ cd ~/esp
 
