@@ -1,18 +1,19 @@
 # ESP8266_RTOS_SDK
 Exemplo de programas para o ESP8266 utilizando RTOS SDK
 
-# Instalação
+## Fontes
+
 Fonte 1 [ESP8266 RTOS SDK - Get Started](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html)
 
 Fonte 2 [Standard Setup of Toolchain for Linux](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html)
 
-# Install Prerequisites
+## Install Prerequisites
 
 $ sudo apt-get install gcc git wget make python3 libncurses-dev flex bison gperf
 
 $ sudo ln -s /usr/bin/python3 /usr/bin/python
 
-# Toolchain Setup
+## Toolchain Setup
 
 $ cd Downloads
 
@@ -38,7 +39,7 @@ Salve, saia do arquivo
 
 $ alias get_lx106='export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"'
 
-- Criando a variável de ambiente IDF_PATH
+### Criando a variável de ambiente IDF_PATH
 
 $ sudo nano ~/.bashrc
 
@@ -63,25 +64,25 @@ Veja se o caminho foi adicionado
 $ sudo usermod -a -G dialout $USER
 
 
-# Get ESP8266_RTOS_SDK
+## Get ESP8266_RTOS_SDK
 
 $ cd ~/esp
 
 $ git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
 
 
-# Install the Required Python Packages
+## Install the Required Python Packages
 
 $ python3 -m pip install --user -r $IDF_PATH/requirements.txt
 
 
-# Start a Project (Exemplo Hello-World)
+## Start a Project (Exemplo Hello-World)
 
 $ cd ~/esp
 
 $ cp -r $IDF_PATH/examples/get-started/hello_world .
 
-## Configure
+### Configure
 
 $ cd ~/esp/hello_world
 
