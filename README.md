@@ -2,9 +2,9 @@
 Exemplo de programas para o ESP8266 utilizando RTOS SDK
 
 # Instalação
-Fonte 1 [ESP8266 RTOS SDK - Get Started](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html).
+Fonte 1 [ESP8266 RTOS SDK - Get Started](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html)
 
-Fonte 2 [Standard Setup of Toolchain for Linux](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html).
+Fonte 2 [Standard Setup of Toolchain for Linux](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html)
 
 # Install Prerequisites
 
