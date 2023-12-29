@@ -89,7 +89,7 @@ $ python3 -m pip install --user -r $IDF_PATH/requirements.txt
 
 $ make menuconfig
 
-Na tela que aparecer, salve o arquivo de configuração
+Na tela que aparecer, (altere caso necessário e) salve o arquivo de configuração
 
 ### para compilar:
 
@@ -97,7 +97,9 @@ $ make
 
 o binário será gerado na pasta build
 
-### para copiar para o microcontrolador:
+### para gravar no microcontrolador:
+
+Conecte a placa para gravação
 
 $ make flash
 
@@ -116,4 +118,5 @@ obs: para sair: Ctrl + ]
 $ make clean
 
 ### para fazer tudo ao mesmo tempo:
+
 $ make -j4 flash monitor
