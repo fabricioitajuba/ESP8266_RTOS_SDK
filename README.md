@@ -75,19 +75,40 @@ $ git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
 
 $ python3 -m pip install --user -r $IDF_PATH/requirements.txt
 
+## Criando um projeto
 
-## Start a Project (Exemplo Hello-World)
+- Copie o conteúdo da pasta "base" para a pasta do projeto;
+- Renomeie o nome da pasta "base" para o nome desejado;
 
-$ cd ~/esp
-
-$ cp -r $IDF_PATH/examples/get-started/hello_world .
-
-### Configure
-
-$ cd ~/esp/hello_world
+### para configurar:
 
 $ make menuconfig
 
-Conectar a placa
+Na tela que aparecer, salve o arquivo de configuração
+
+### para compilar:
+
+$ make
+
+o binário será gerado na pasta build
+
+### para copiar para o microcontrolador:
+
+$ make flash
+
+OBS: Caso ocorra algum erro, digite o seguinte comando:
 
 $ sudo chmod -R 777 /dev/ttyUSB0
+
+### serial monitor através do terminal:
+
+$ make monitor
+
+obs: para sair: Ctrl + ]
+
+### para limpar os arquivos de compilação:
+
+$ make clean
+
+### para fazer tudo ao mesmo tempo:
+$ make -j4 flash monitor
