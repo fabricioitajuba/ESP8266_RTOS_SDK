@@ -9,7 +9,7 @@ Fonte 2 [Standard Setup of Toolchain for Linux](https://docs.espressif.com/proje
 
 ## Install Prerequisites
 
-$ sudo apt-get install gcc git wget make python3 libncurses-dev flex bison gperf
+$ sudo apt-get install gcc git wget make cmake python3 libncurses-dev flex bison gperf
 
 $ sudo ln -s /usr/bin/python3 /usr/bin/python
 
