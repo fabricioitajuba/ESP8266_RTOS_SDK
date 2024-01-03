@@ -4,11 +4,6 @@
  Data: 03/01/24
 */
 
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <stdarg.h>
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
